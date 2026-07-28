@@ -31,3 +31,13 @@ table{
 	font-variant-numeric: tabular-nums;
 	margin: 1em;
 }
+
+table td{
+	padding: .5em;
+}
+
+table tbody th,
+table tfoot th,
+table thead tr + tr th{
+	font-weight: normal;
+}
