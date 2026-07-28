@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/max-weber/the-protestant-ethic-and-the-spirit-of-capitalism/talcott-parsons</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,9 +36,9 @@
 		<meta property="term" refines="#subject-1">sh85019962</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh89002535</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Philosophy</meta>
-		<meta property="se:subject">Spirituality</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Philosophy</meta>
+		<meta property="schema:genre">Spirituality</meta>
 		<dc:description id="description">The German historian Max Weber presents a theory detailing how certain ideas which are key to capitalism may have evolved from protestantism.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Capitalism as a pervasive economic system was not inevitable. The ideas underlying such a way of organizing society must have originated somewhere.&lt;/p&gt;
@@ -48,40 +49,42 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/The_Protestant_Ethic_and_the_Spirit_of_Capitalism</dc:source>
 		<dc:source>https://archive.org/details/protestantethics00webe</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Protestant_Ethic_and_the_Spirit_of_Capitalism</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/max-weber_the-protestant-ethic-and-the-spirit-of-capitalism_talcott-parsons</meta>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
+		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Protestant_Ethic_and_the_Spirit_of_Capitalism" rel="schema:sameAs"/>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/max-weber_the-protestant-ethic-and-the-spirit-of-capitalism_talcott-parsons" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Max Weber</dc:creator>
 		<meta property="file-as" refines="#author">Weber, Max</meta>
-		<meta property="se:name.person.full-name" refines="#author">Maximilian Carl Emil Weber</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Max_Weber</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79043351.html</meta>
+		<meta property="schema:alternateName" refines="#author">Maximilian Carl Emil Weber</meta>
+		<link href="https://en.wikipedia.org/wiki/Max_Weber" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79043351.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="translator">Talcott Parsons</dc:contributor>
 		<meta property="file-as" refines="#translator">Parsons, Talcott</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Talcott_Parsons</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n80015395.html</meta>
+		<link href="https://en.wikipedia.org/wiki/Talcott_Parsons" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80015395.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="writer-of-preface">R. H. Tawney</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Tawney, R. H.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Richard Henry Tawney</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-preface">https://en.wikipedia.org/wiki/R._H._Tawney</meta>
-		<meta property="se:url.authority.nacoaf" refines="#writer-of-preface">http://id.loc.gov/authorities/names/n50008661.html</meta>
+		<meta property="schema:alternateName" refines="#author">Richard Henry Tawney</meta>
+		<link href="https://en.wikipedia.org/wiki/R._H._Tawney" refines="#writer-of-preface" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50008661.html" refines="#writer-of-preface" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">George Henry Boughton</dc:contributor>
 		<meta property="file-as" refines="#artist">Boughton, George Henry</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Henry_Boughton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79104209.html</meta>
+		<link href="https://en.wikipedia.org/wiki/George_Henry_Boughton" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79104209.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org/</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-1" rel="schema:url"/>
 		<dc:contributor id="producer-1">Lukas Bystricky</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Bystricky, Lukas</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
