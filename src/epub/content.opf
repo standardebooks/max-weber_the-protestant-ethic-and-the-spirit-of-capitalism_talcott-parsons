@@ -39,7 +39,7 @@
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Philosophy</meta>
 		<meta property="schema:genre">Spirituality</meta>
-		<dc:abstract>A German historian presents a theory detailing how certain ideas which are key to capitalism may have evolved from Protestantism.</dc:abstract>
+		<meta property="schema:abstract">A German historian presents a theory detailing how certain ideas which are key to capitalism may have evolved from Protestantism.</meta>
 		<dc:description>
 			&lt;p&gt;Capitalism as a pervasive economic system was not inevitable. The ideas underlying such a way of organizing society must have originated somewhere.&lt;/p&gt;
 			&lt;p&gt;In &lt;i&gt;The Protestant Ethic and the Spirit of Capitalism&lt;/i&gt;, the German historian &lt;a href="https://standardebooks.org/ebooks/max-weber"&gt;Max Weber&lt;/a&gt; attempts to trace the economic and philosophical development of capitalism, first by identifying what he calls “the spirit of capitalism.” For Weber this is best encapsulated by &lt;a href="https://standardebooks.org/ebooks/benjamin-franklin"&gt;Benjamin Franklin’s&lt;/a&gt; well-known aphorism “time is money.” This apparently innocuous statement only makes sense in a wage economy, where one is comfortable thinking about time as something that can be bought. Indeed, this and other of Franklin aphorisms paint a picture of a world we might recognize, in which making money is commonly seen not a means to a better life, but as a goal in and of itself. Virtues such as honesty and trustworthiness are still important, but mainly because they’re qualities that are profitable.&lt;/p&gt;
